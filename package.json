@@ -16,9 +16,9 @@
     "laravel-mix": "^6.0.41",
     "lodash": "^4.17.21",
     "postcss": "^8.3.11",
-    "vue-loader": "^16.8.3"
+    "vue-loader": "^16.8.3",
+    "laravel-nova": "^1.0"
   },
   "dependencies": {
-    "libphonenumber-js": "^1.10.61"
   }
 }

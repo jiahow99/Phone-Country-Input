@@ -1,6 +1,7 @@
 {
     "name": "mices/phone-country-input",
     "description": "A phone input with country selection for Laravel Nova",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Mices\\PhoneCountryInput\\": "src/"
@@ -12,5 +13,16 @@
             "email": "jia_how99@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mices\\PhoneCountryInput\\FieldServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
