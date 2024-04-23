@@ -1,0 +1,16 @@
+{
+    "name": "mices/phone-country-input",
+    "description": "A phone input with country selection for Laravel Nova",
+    "autoload": {
+        "psr-4": {
+            "Mices\\PhoneCountryInput\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jiahow99",
+            "email": "jia_how99@hotmail.com"
+        }
+    ],
+    "require": {}
+}
