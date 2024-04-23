@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mices\\PhoneCountryInput\\": "src/"
+            "Mices\\PhoneInput\\": "src/"
         }
     },
     "authors": [
@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mices\\PhoneCountryInput\\FieldServiceProvider"
+                "Mices\\PhoneInput\\FieldServiceProvider"
             ]
         }
     },
